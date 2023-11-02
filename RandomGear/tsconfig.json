@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "livescripts\\build\\default.dataset\\lua",
+        "rootDir": "D:\\TestTSWOW\\install\\modules\\RandomGear"
+    },
+    "tstl": {
+        "luaTarget": "5.4",
+        "noImplicitSelf": true,
+        "luaPlugins": [
+            {
+                "name": "D:\\TestTSWOW\\install\\bin\\scripts\\addons\\addons\\LuaORM.js",
+                "import": "LuaORM"
+            }
+        ]
+    },
+    "include": [
+        "livescripts",
+        "shared"
+    ]
+}
